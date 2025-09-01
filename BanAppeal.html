@@ -4,6 +4,99 @@
   <meta charset="UTF-8" />
   <title>Ban Appeals</title>
   <link rel="stylesheet" href="style.css" />
+  <style>
+    :root {
+      --main-blue: #3888ff;
+      --main-blue-dark: #2563c9;
+      --bg-light: #f9f9f9;
+      --border-light: #d3e4ff;
+      --input-bg: #f0f7ff;
+      --input-border: #b3d1ff;
+      --shadow: 0 2px 8px rgba(56,136,255,0.07);
+      --radius: 12px;
+    }
+    .container {
+      max-width: 700px;
+      margin: 2em auto;
+      padding: 2em;
+      background: var(--bg-light);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      border: 1px solid var(--border-light);
+    }
+    .ban-appeal-form {
+      max-width: 500px;
+      margin: 0 auto;
+      padding: 2em;
+      background: var(--input-bg);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      border: 1px solid var(--border-light);
+      font-family: inherit;
+    }
+    .ban-appeal-form label {
+      display: block;
+      margin-top: 1.2em;
+      font-weight: bold;
+      color: var(--main-blue-dark);
+      letter-spacing: 0.03em;
+    }
+    .ban-appeal-form input,
+    .ban-appeal-form textarea,
+    .ban-appeal-form select {
+      width: 100%;
+      padding: 0.62em;
+      margin-top: 0.4em;
+      border-radius: 7px;
+      border: 1.5px solid var(--input-border);
+      background: #fff;
+      font-family: inherit;
+      font-size: 1em;
+      transition: border-color 0.18s;
+    }
+    .ban-appeal-form input:focus,
+    .ban-appeal-form textarea:focus,
+    .ban-appeal-form select:focus {
+      border-color: var(--main-blue);
+      outline: none;
+      box-shadow: 0 0 0 2px #3888ff33;
+    }
+    .ban-appeal-form button {
+      margin-top: 2em;
+      padding: 0.8em 2em;
+      border: none;
+      border-radius: 8px;
+      background: var(--main-blue);
+      color: white;
+      font-size: 1.08em;
+      font-weight: bold;
+      cursor: pointer;
+      box-shadow: 0 2px 6px rgba(56,136,255,0.13);
+      transition: background 0.2s, box-shadow 0.2s;
+      letter-spacing: 0.03em;
+    }
+    .ban-appeal-form button:hover,
+    .ban-appeal-form button:focus {
+      background: var(--main-blue-dark);
+      box-shadow: 0 4px 14px rgba(56,136,255,0.18);
+    }
+    .form-message {
+      margin-top: 2em;
+      text-align: center;
+      font-size: 1.13em;
+      color: #2ea043;
+      background: #e6f7ec;
+      border-radius: 8px;
+      padding: 1.1em;
+      border: 1px solid #b9e9c8;
+      box-shadow: 0 2px 8px rgba(46,160,67,0.06);
+      display: none;
+    }
+    .ban-appeal-form select {
+      background: #f5fbff;
+      color: #2a3e5c;
+    }
+  </style>
 </head>
 <body>
   <nav>
@@ -15,12 +108,54 @@
     <a href="donate.html">Donate</a>
   </nav>
   <div class="container">
-    <h1>Ban Appeals :D</h1>
-    <p>This page is a WIP. Please check later!</p>
+    <h1 style="color:var(--main-blue-dark);">Ban Appeals :D</h1>
+    <p>Appeal a ban professionally. All appeals are confidential and reviewed by staff within 72 hours.<br>
+    Please fill out each field with accurate details.</p>
+    <form action="https://formsubmit.co/PuppyLuv1428@outlook.com" method="POST" class="ban-appeal-form" id="banAppealForm">
+      <label for="username">Minecraft Username</label>
+      <input type="text" id="username" name="Minecraft Username" required autocomplete="username">
+
+      <label for="date">Date of Ban</label>
+      <input type="date" id="date" name="Date of Ban" required>
+
+      <label for="reason">Reason for Ban</label>
+      <input type="text" id="reason" name="Reason for Ban" required>
+
+      <label for="appealtype">Appeal Type</label>
+      <select id="appealtype" name="Appeal Type" required>
+        <option value="">Select type...</option>
+        <option value="Second Chance Request">Second Chance Request</option>
+        <option value="False Ban">False Ban</option>
+      </select>
+
+      <label for="explanation">Explain your case (details help us review faster)</label>
+      <textarea id="explanation" name="Explanation" rows="5" required></textarea>
+
+      <label for="email">Contact Email (for staff response)</label>
+      <input type="email" id="email" name="Contact Email" required autocomplete="email">
+
+      <!-- FormSubmit options -->
+      <input type="hidden" name="_next" value="https://puppyluv1428.github.io/BanAppeal.html?submitted=true">
+      <input type="hidden" name="_captcha" value="false">
+
+      <button type="submit">Submit Appeal</button>
+    </form>
+    <div class="form-message" id="formMessage">
+      <strong>Thank you!</strong><br>
+      Your ban appeal has been submitted.<br>
+      Staff will review your case soon.
+    </div>
   </div>
   <footer>
     <p>play.puppylandmc.com :D</p>
     <p>&copy; 2025 PuppyLandMC</p>
   </footer>
+  <script>
+    // Show confirmation if redirected after submit
+    if (window.location.search.includes('submitted=true')) {
+      document.getElementById('banAppealForm').style.display = 'none';
+      document.getElementById('formMessage').style.display = 'block';
+    }
+  </script>
 </body>
 </html>
