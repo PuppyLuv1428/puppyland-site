@@ -1,41 +1,70 @@
 body {
   margin: 0;
-  font-family: 'Segoe UI', sans-serif;
-  background: linear-gradient(135deg, #00BFFF, #4D91FF);
-  color: white;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
+  font-family: sans-serif;
+  background: linear-gradient(to bottom, #0f2c5c, #1a3f7a);
+  color: #f0f0f0;
+}
+
+nav {
+  background-color: #122b50;
+  padding: 10px;
+  text-align: center;
+}
+
+nav a {
+  color: #ffffff;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
 }
 
 .container {
-  text-align: center;
-  padding: 2rem;
-  background: rgba(0, 0, 0, 0.4);
-  border-radius: 12px;
-  box-shadow: 0 0 20px rgba(0,0,0,0.6);
-}
-
-h1 {
-  font-size: 3rem;
-  background: linear-gradient(to right, #00BFFF, #4D91FF);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  padding: 40px;
+  max-width: 800px;
+  margin: auto;
 }
 
 .btn {
   display: inline-block;
-  margin-top: 1rem;
-  padding: 0.75rem 1.5rem;
-  background: white;
-  color: #00BFFF;
-  font-weight: bold;
-  border-radius: 8px;
+  padding: 10px 20px;
+  background-color: #4D91FF;
+  color: white;
   text-decoration: none;
-  transition: background 0.3s;
+  border-radius: 6px;
+  font-weight: bold;
 }
 
-.btn:hover {
-  background: #e0f7ff;
+footer {
+  background-color: #122b50;
+  color: #ccc;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+}
+
+.rules li {
+  margin: 10px 0;
+}
+
+.red {
+  color: #FF4444;
+  font-weight: bold;
+}
+
+.green {
+  color: #44FF88;
+  font-weight: bold;
+}
+
+input, textarea, select {
+  width: 100%;
+  max-width: 500px;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 6px;
+  border: none;
 }
