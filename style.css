@@ -1,70 +1,257 @@
+/* PuppyLandMC Website Styles */
+
+/* Base reset and font */
 body {
   margin: 0;
-  font-family: sans-serif;
-  background: linear-gradient(to bottom, #0f2c5c, #1a3f7a);
-  color: #f0f0f0;
+  padding: 0;
+  font-family: 'Segoe UI', Verdana, Arial, sans-serif;
+  background: #f4f8ff;
+  color: #222c3a;
 }
 
+/* Navigation Bar */
 nav {
-  background-color: #122b50;
-  padding: 10px;
+  background: #3888ff;
+  padding: 1em 0;
   text-align: center;
+  border-radius: 0 0 18px 18px;
+  box-shadow: 0 2px 8px rgba(56,136,255,0.07);
+  margin-bottom: 2em;
 }
 
 nav a {
-  color: #ffffff;
-  margin: 0 15px;
-  text-decoration: none;
-  font-weight: bold;
-}
-
-nav a:hover {
-  text-decoration: underline;
-}
-
-.container {
-  padding: 40px;
-  max-width: 800px;
-  margin: auto;
-}
-
-.btn {
   display: inline-block;
-  padding: 10px 20px;
-  background-color: #4D91FF;
-  color: white;
+  color: #fff;
+  background: transparent;
   text-decoration: none;
-  border-radius: 6px;
-  font-weight: bold;
+  margin: 0 1em;
+  padding: 0.5em 1.3em;
+  font-size: 1.07em;
+  font-weight: 500;
+  border-radius: 7px;
+  transition: background 0.19s, color 0.19s;
 }
 
-footer {
-  background-color: #122b50;
-  color: #ccc;
+nav a:hover,
+nav a:focus {
+  background: #2563c9;
+  color: #fff;
+  text-decoration: none;
+  box-shadow: 0 2px 7px rgba(56,136,255,0.09);
+}
+
+nav a.active {
+  background: #fff;
+  color: #3888ff;
+  font-weight: 700;
+  box-shadow: 0 2px 8px rgba(56,136,255,0.13);
+}
+
+/* Main Container */
+.container {
+  max-width: 700px;
+  margin: 2em auto;
+  padding: 2em;
+  background: #f9f9f9;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(56,136,255,0.07);
+  border: 1px solid #d3e4ff;
+}
+
+/* Headings */
+h1, h2, h3 {
+  color: #2563c9;
+  margin-top: 0;
+  font-family: inherit;
+}
+
+h1 {
+  font-size: 2.1em;
+  margin-bottom: 0.5em;
+}
+
+h2 {
+  font-size: 1.5em;
+  margin-bottom: 0.5em;
+}
+
+/* Paragraphs */
+p {
+  font-size: 1.07em;
+  line-height: 1.7;
+  margin-top: 0.8em;
+  margin-bottom: 0.8em;
+}
+
+/* Ban Appeal Form & Shared Forms */
+.ban-appeal-form,
+.staff-app-form {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 2em;
+  background: #f0f7ff;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(56,136,255,0.07);
+  border: 1px solid #d3e4ff;
+  font-family: inherit;
+}
+
+.ban-appeal-form label,
+.staff-app-form label {
+  display: block;
+  margin-top: 1.2em;
+  font-weight: bold;
+  color: #2563c9;
+  letter-spacing: 0.03em;
+}
+
+.ban-appeal-form input,
+.ban-appeal-form textarea,
+.ban-appeal-form select,
+.staff-app-form input,
+.staff-app-form textarea,
+.staff-app-form select {
+  width: 100%;
+  padding: 0.62em;
+  margin-top: 0.4em;
+  border-radius: 7px;
+  border: 1.5px solid #b3d1ff;
+  background: #fff;
+  font-family: inherit;
+  font-size: 1em;
+  transition: border-color 0.18s;
+  box-sizing: border-box;
+}
+
+.ban-appeal-form input:focus,
+.ban-appeal-form textarea:focus,
+.ban-appeal-form select:focus,
+.staff-app-form input:focus,
+.staff-app-form textarea:focus,
+.staff-app-form select:focus {
+  border-color: #3888ff;
+  outline: none;
+  box-shadow: 0 0 0 2px #3888ff33;
+}
+
+.ban-appeal-form button,
+.staff-app-form button {
+  margin-top: 2em;
+  padding: 0.8em 2em;
+  border: none;
+  border-radius: 8px;
+  background: #3888ff;
+  color: white;
+  font-size: 1.08em;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 2px 6px rgba(56,136,255,0.13);
+  transition: background 0.2s, box-shadow 0.2s;
+  letter-spacing: 0.03em;
+}
+
+.ban-appeal-form button:hover,
+.ban-appeal-form button:focus,
+.staff-app-form button:hover,
+.staff-app-form button:focus {
+  background: #2563c9;
+  box-shadow: 0 4px 14px rgba(56,136,255,0.18);
+}
+
+.ban-appeal-form select,
+.staff-app-form select {
+  background: #f5fbff;
+  color: #2a3e5c;
+}
+
+/* Confirmation Message */
+.form-message {
+  margin-top: 2em;
   text-align: center;
-  padding: 20px;
-  margin-top: 40px;
+  font-size: 1.13em;
+  color: #2ea043;
+  background: #e6f7ec;
+  border-radius: 8px;
+  padding: 1.1em;
+  border: 1px solid #b9e9c8;
+  box-shadow: 0 2px 8px rgba(46,160,67,0.06);
+  display: none;
+}
+
+/* Server Rules List */
+.rules {
+  list-style: none;
+  padding: 0;
+  margin: 1em 0;
 }
 
 .rules li {
-  margin: 10px 0;
+  padding: 0.6em 0.8em;
+  margin-bottom: 0.4em;
+  background: #e7f1ff;
+  border-radius: 7px;
+  border-left: 5px solid #3888ff;
+  font-size: 1.07em;
 }
 
-.red {
-  color: #FF4444;
+.rules .red {
+  color: #e55353;
   font-weight: bold;
 }
 
-.green {
-  color: #44FF88;
+.rules .green {
+  color: #2ea043;
   font-weight: bold;
 }
 
-input, textarea, select {
-  width: 100%;
-  max-width: 500px;
-  padding: 10px;
-  margin-bottom: 20px;
-  border-radius: 6px;
-  border: none;
+/* News List */
+ul {
+  padding-left: 1.2em;
+}
+
+/* Donate Page */
+code {
+  display: inline-block;
+  background: #f0f7ff;
+  color: #2563c9;
+  padding: 0.3em 0.8em;
+  border-radius: 5px;
+  font-size: 1.08em;
+  margin-top: 0.3em;
+}
+
+/* Footer */
+footer {
+  background: #e7f1ff;
+  color: #2563c9;
+  text-align: center;
+  padding: 1em 0;
+  margin-top: 3em;
+  border-radius: 18px 18px 0 0;
+  font-size: 1.05em;
+  box-shadow: 0 -2px 8px rgba(56,136,255,0.06);
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  .container {
+    padding: 1em;
+    margin: 1em;
+  }
+  nav {
+    padding: 0.7em 0;
+  }
+  nav a {
+    margin: 0 0.3em;
+    padding: 0.4em 0.8em;
+    font-size: 1em;
+  }
+  .ban-appeal-form,
+  .staff-app-form {
+    padding: 1em;
+    max-width: 98%;
+  }
+  h1 {
+    font-size: 1.3em;
+  }
 }
