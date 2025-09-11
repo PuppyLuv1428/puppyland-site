@@ -1,0 +1,87 @@
+[14:42:50] [Craft Scheduler Thread - 38 - InteractiveChat/INFO]: [Not Secure] Player - yzmbasss » so
+[14:42:52] [Server thread/INFO]: Werewolf4ever issued server command: /clear @s
+[14:42:52] [Server thread/INFO]: [Werewolf4ever: Removed 351 item(s) from player Werewolf4ever]
+[14:42:54] [Craft Scheduler Thread - 8 - InteractiveChat/INFO]: [Not Secure] Owner - Werewolf4ever » so so
+[14:42:56] [Craft Scheduler Thread - 34 - InteractiveChat/INFO]: [Not Secure] Player - yzmbasss » what do u need help with
+[14:42:57] [Server thread/INFO]: Werewolf4ever issued server command: /effect clear @s
+[14:42:57] [Server thread/INFO]: [Werewolf4ever: Removed every effect from Werewolf4ever]
+[14:42:59] [Craft Scheduler Thread - 22 - InteractiveChat/INFO]: [Not Secure] Owner - Werewolf4ever » so uh
+[14:43:03] [Server thread/INFO]: yzmbasss was shot by Skeleton
+[14:43:07] [Craft Scheduler Thread - 41 - InteractiveChat/INFO]: [Not Secure] Owner - Werewolf4ever » have you ever used luckprefixes-
+[14:43:08] [Server thread/INFO]: yzmbasss issued server command: /huskhomes:back
+[14:43:09] [Craft Scheduler Thread - 22 - InteractiveChat/INFO]: [Not Secure] Owner - Werewolf4ever » -_-
+[14:43:11] [Server thread/INFO]: Werewolf4ever issued server command: /home home
+[14:43:14] [Server thread/INFO]: Werewolf4ever issued server command: /tp yzmbasss Werewolf4ever
+[14:43:31] [Server thread/INFO]: Werewolf4ever issued server command: /gamemode survival
+[14:43:31] [Server thread/INFO]: [Werewolf4ever: Set own game mode to Survival Mode]
+[14:43:35] [Craft Scheduler Thread - 41 - InteractiveChat/INFO]: [Not Secure] Player - yzmbasss » 1 sec
+[14:44:09] [Server thread/INFO]: Werewolf4ever issued server command: /sellgui
+[14:44:15] [Server thread/INFO]: Shop >> Werewolf4ever sold 6x Tipped Arrow§r(Potions.page4.items.143) for $33.00§r with the sell gui.
+[14:44:17] [Server thread/INFO]: Werewolf4ever issued server command: /pv 1
+[14:44:26] [Craft Scheduler Thread - 15 - InteractiveChat/INFO]: [Not Secure] Player - yzmbasss » back
+[14:44:35] [Craft Scheduler Thread - 31 - InteractiveChat/INFO]: [Not Secure] Player - yzmbasss » luckprefixes?
+[14:44:38] [Craft Scheduler Thread - 31 - InteractiveChat/INFO]: [Not Secure] Owner - Werewolf4ever » yes
+[14:44:39] [Server thread/INFO]: Werewolf4ever issued server command: /pv 1
+[14:44:45] [Craft Scheduler Thread - 20 - InteractiveChat/INFO]: [Not Secure] Player - yzmbasss » does that have to do with player tags?
+[14:44:47] [Server thread/INFO]: Werewolf4ever issued server command: /sellgui
+[14:44:48] [Server thread/INFO]: Shop >> Werewolf4ever sold 7x Shulker Shell§r(Miscellaneous.page1.items.29) for $12.25§r with the sell gui.
+[14:44:51] [Craft Scheduler Thread - 8 - InteractiveChat/INFO]: [Not Secure] Owner - Werewolf4ever » yes, want the link?
+[14:44:53] [Server thread/INFO]: Werewolf4ever issued server command: /sellgui
+[14:44:55] [Server thread/INFO]: Shop >> Werewolf4ever sold 28x Oak Planks§r(Blocks.page5.items.231), 2x Dirt§r(Blocks.page3.items.109) for $9.34§r with the sell gui.
+[14:44:56] [Craft Scheduler Thread - 42 - InteractiveChat/INFO]: [Not Secure] Player - yzmbasss » uh
+[14:44:59] [Craft Scheduler Thread - 12 - InteractiveChat/INFO]: [Not Secure] Player - yzmbasss » sure
+[14:45:12] [Craft Scheduler Thread - 4 - InteractiveChat/INFO]: [Not Secure] Owner - Werewolf4ever » dude
+[14:45:16] [Craft Scheduler Thread - 44 - InteractiveChat/INFO]: [Not Secure] Owner - Werewolf4ever » are you like stupid
+[14:45:21] [Craft Scheduler Thread - 43 - InteractiveChat/INFO]: [Not Secure] Player - yzmbasss » ?
+[14:45:33] [Craft Scheduler Thread - 36 - InteractiveChat/INFO]: [Not Secure] Owner - Werewolf4ever » I never gave you creative to mess up my base
+[14:45:38] [Craft Scheduler Thread - 33 - InteractiveChat/INFO]: [Not Secure] Player - yzmbasss » mbbbbbbb
+[14:45:43] [Craft Scheduler Thread - 40 - InteractiveChat/INFO]: [Not Secure] Owner - Werewolf4ever » -_-
+[14:45:44] [Craft Scheduler Thread - 15 - InteractiveChat/INFO]: [Not Secure] Player - yzmbasss » do worl gueard
+[14:45:47] [Craft Scheduler Thread - 36 - InteractiveChat/INFO]: [Not Secure] Player - yzmbasss » guard
+[14:46:01] [Craft Scheduler Thread - 36 - InteractiveChat/INFO]: [Not Secure] Owner - Werewolf4ever » well guess what, I ban people MYSELF that greif. so they dont do it EVER again.
+[14:46:05] [Craft Scheduler Thread - 37 - InteractiveChat/INFO]: [Not Secure] Owner - Werewolf4ever » last warning.
+[14:46:08] [Server thread/INFO]: Werewolf4ever issued server command: /gamemode creative
+[14:46:08] [Server thread/INFO]: [Werewolf4ever: Set own game mode to Creative Mode]
+[14:46:16] [Server thread/INFO]: Werewolf4ever issued server command: /gamemode creative
+[14:46:17] [Craft Scheduler Thread - 4 - InteractiveChat/INFO]: [Not Secure] Player - yzmbasss » hmm
+[14:46:19] [Craft Scheduler Thread - 33 - InteractiveChat/INFO]: [Not Secure] Player - yzmbasss » ok
+[14:46:26] [Server thread/INFO]: Werewolf4ever issued server command: /gamemode survival
+[14:46:26] [Server thread/INFO]: [Werewolf4ever: Set own game mode to Survival Mode]
+[14:46:28] [Server thread/INFO]: yzmbasss issued server command: /plugins
+[14:46:38] [Craft Scheduler Thread - 33 - InteractiveChat/INFO]: [Not Secure] Owner - Werewolf4ever » so, do you want the link or not
+[14:46:42] [Craft Scheduler Thread - 36 - InteractiveChat/INFO]: [Not Secure] Player - yzmbasss » yh
+[14:46:45] [Server thread/INFO]: Werewolf4ever issued server command: /gamemode creative
+[14:46:45] [Server thread/INFO]: [Werewolf4ever: Set own game mode to Creative Mode]
+[14:47:03] [Craft Scheduler Thread - 22 - InteractiveChat/INFO]: [Not Secure] Player - yzmbasss » and i didnt know i had creative for a sec mb
+[14:47:23] [Craft Scheduler Thread - 38 - InteractiveChat/INFO]: [Not Secure] Owner - Werewolf4ever » https://modrinth.com/plugin/luckprefix
+[14:47:59] [Craft Scheduler Thread - 46 - InteractiveChat/INFO]: [Not Secure] Player - yzmbasss » so
+[14:48:11] [Craft Scheduler Thread - 31 - InteractiveChat/INFO]: [Not Secure] Player - yzmbasss » can you not put it in ur plugin folder?
+[14:48:11] [Craft Scheduler Thread - 37 - InteractiveChat/INFO]: [Not Secure] Owner - Werewolf4ever » so what
+[14:48:14] [Craft Scheduler Thread - 44 - InteractiveChat/INFO]: [Not Secure] Owner - Werewolf4ever » no...
+[14:48:16] [Craft Scheduler Thread - 44 - InteractiveChat/INFO]: [Not Secure] Owner - Werewolf4ever » ITS ALREADY HERE
+[14:48:19] [Craft Scheduler Thread - 44 - InteractiveChat/INFO]: [Not Secure] Player - yzmbasss » oh
+[14:48:22] [Craft Scheduler Thread - 4 - InteractiveChat/INFO]: [Not Secure] Owner - Werewolf4ever » I have a problem with it though
+[14:48:26] [Craft Scheduler Thread - 30 - InteractiveChat/INFO]: [Not Secure] Player - yzmbasss » ?
+[14:48:26] [Craft Scheduler Thread - 34 - InteractiveChat/INFO]: [Not Secure] Owner - Werewolf4ever » im not stupid either
+[14:48:39] [Craft Scheduler Thread - 4 - InteractiveChat/INFO]: [Not Secure] Owner - Werewolf4ever » you see how the chat is grey
+[14:48:49] [Craft Scheduler Thread - 48 - InteractiveChat/INFO]: [Not Secure] Owner - Werewolf4ever » and are you going to demand payment or not? if so, just leave.
+[14:49:03] [Server thread/INFO]: Werewolf4ever issued server command: /trash
+[14:49:04] [Craft Scheduler Thread - 37 - InteractiveChat/INFO]: [Not Secure] Player - yzmbasss » dotn even got a card :sob:
+[14:49:13] [Craft Scheduler Thread - 44 - InteractiveChat/INFO]: [Not Secure] Owner - Werewolf4ever » I never asked if you have a card
+[14:49:18] [Craft Scheduler Thread - 30 - InteractiveChat/INFO]: [Not Secure] Player - yzmbasss » ik
+[14:49:25] [Craft Scheduler Thread - 12 - InteractiveChat/INFO]: [Not Secure] Player - yzmbasss » how would i nget money either way
+[14:49:30] [Craft Scheduler Thread - 33 - InteractiveChat/INFO]: [Not Secure] Owner - Werewolf4ever » I do pay in crypto, but I'm not paying you, at the rate this is going
+[14:49:51] [Craft Scheduler Thread - 51 - InteractiveChat/INFO]: [Not Secure] Player - yzmbasss » ur being ****a disrespectful
+[14:49:52] [Craft Scheduler Thread - 4 - InteractiveChat/INFO]: [Not Secure] Owner - Werewolf4ever » so do you know how to fix the chat or no?
+[14:49:55] [Craft Scheduler Thread - 45 - InteractiveChat/INFO]: [Not Secure] Owner - Werewolf4ever » read /rules.
+[14:50:04] [Server thread/INFO]: yzmbasss issued server command: /rules
+[14:50:15] [Craft Scheduler Thread - 12 - InteractiveChat/INFO]: [Not Secure] Owner - Werewolf4ever » I never asked if I was being disrespectful, and you are walking on thin ice ☠
+[14:50:31] [Craft Scheduler Thread - 48 - InteractiveChat/INFO]: [Not Secure] Player - yzmbasss » hmm
+[14:50:47] [Server thread/INFO]: Werewolf4ever issued server command: /gamemode adventure yzmbasss
+[14:50:47] [Server thread/INFO]: [Werewolf4ever: Set yzmbasss's game mode to Adventure Mode]
+[14:50:58] [Server thread/INFO]: yzmbasss has made the advancement [Stone Age]
+[14:51:07] [Craft Scheduler Thread - 31 - InteractiveChat/INFO]: [Not Secure] Player - yzmbasss » byyeeee
+[14:51:08] [Server thread/INFO]: yzmbasss lost connection: Disconnected
+[14:51:08] [Server thread/INFO]: yzmbasss left the game
+[14:52:01] [Server thread/INFO]: Werewolf4ever issued server command: /ban-ip yzmbasss Swearing, Disrespectful, And Greifing. Appeal at puppylandmc.com Your chances are very low. ☺
+[14:52:05] [Server thread/INFO]: Werewolf4ever issued server command: /gamemode creative
